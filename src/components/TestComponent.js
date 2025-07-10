@@ -1,18 +1,14 @@
 import React from "react";
 
-// no need to modify anything in here. The final test is looking for the returned JSX from this component
 function TestComponent() {
   return (
-    <div className="video">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/5TbUxGZtwGI"
-        frameBorder="0"
-        allow="autoplay; encrypted-media"
+    <div>
+      <video
         title="time video"
-        allowFullScreen
-      ></iframe>
+        width="300"
+        controls
+        src="https://media.giphy.com/media/kUTME7ABmhYg5J3psM/giphy.mp4"
+      />
     </div>
   );
 }
